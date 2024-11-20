@@ -2,7 +2,7 @@
 require '../modeloDeDatos/configdb.php';
 require 'FormHandler.php';
 
-header('Content-Type: application/json');
+header('Content-Type: application/json'); //Esto se utiliza cuando otra pagina está llamando el script php para parsear los datos de resultado en JSON
 
 // Se verifica si el valor 'curso' fue enviado en la solicitud POST
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['curso'])) {

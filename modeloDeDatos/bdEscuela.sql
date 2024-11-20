@@ -45,13 +45,13 @@ CREATE TABLE reserva_libros (
 
 -- Crear la tabla curso
 CREATE TABLE curso (
-    idCurso INT AUTO_INCREMENT PRIMARY KEY,
+    idCurso TINYINT AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(100) NOT NULL
 );
 
 -- Crear la tabla libros_curso (modificar idCurso de tinyint a int)
 CREATE TABLE libros_curso (
-    idCurso INT,  -- Cambiar de tinyint a int
+    idCurso TINYINT,  -- Cambiar de tinyint a int
     isbn CHAR(20),
     PRIMARY KEY (idCurso, isbn),
     FOREIGN KEY (idCurso) REFERENCES curso(idCurso),

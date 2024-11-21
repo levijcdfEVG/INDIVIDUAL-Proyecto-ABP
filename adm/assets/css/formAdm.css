@@ -78,6 +78,17 @@ form button:hover {
     background-color: #b80050;
 }
 
+#botonDeResetear{
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
 /* Estilos de la caja de contenedor */
 .container {
     padding: 20px;

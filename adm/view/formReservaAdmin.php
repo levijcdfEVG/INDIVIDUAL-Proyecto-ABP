@@ -64,6 +64,7 @@
                     <option value="pagoNoConfirmado">No</option>
                 </select>
                 <br><input type="submit" value="Realizar Reserva" id="botonDeReserva" />
+                <input type="reset" value="Realizar Reserva" id="botonDeResetear" />
             </form>
         </main>
 

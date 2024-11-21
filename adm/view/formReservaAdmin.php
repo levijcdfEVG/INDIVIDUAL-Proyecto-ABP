@@ -5,7 +5,7 @@
         <meta charset="utf-8" />
         <title>Registro de Libros</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="assets/css/formAdm.css" rel="stylesheet" />
+        <link href="../assets/css/formAdm.css" rel="stylesheet" />
     </head>
     <body>
         <header>
@@ -68,8 +68,8 @@
         </main>
 
         
-        <script type="text/javascript" src="assets/js/formHandler.js"></script>
+        <script type="text/javascript" src="../assets/js/formHandler.js"></script>
         <!-- Se incluyen los scripts para manejar las peticiones asincronas -->
-        <script type="text/javascript" src="assets/js/fetchLibros.js"></script>
+        <script type="text/javascript" src="../assets/js/fetchLibros.js"></script>
     </body>
 </html>

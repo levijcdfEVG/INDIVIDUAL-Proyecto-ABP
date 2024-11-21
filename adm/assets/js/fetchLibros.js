@@ -3,7 +3,7 @@ document.getElementById('curso').addEventListener('change', function () {
 
     if (cursoSeleccionado) {
         // Se realiza la solicitud AJAX (fetch)
-        fetch('../adm/obtenerLibros.php', {
+        fetch('../adm/controller/obtenerLibros.php', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/x-www-form-urlencoded'

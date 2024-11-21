@@ -51,7 +51,7 @@ CREATE TABLE curso (
 
 -- Crear la tabla libros_curso (modificar idCurso de tinyint a int)
 CREATE TABLE libros_curso (
-    idCurso TINYINT,  -- Cambiar de tinyint a int
+    idCurso TINYINT, 
     isbn CHAR(20),
     PRIMARY KEY (idCurso, isbn),
     FOREIGN KEY (idCurso) REFERENCES curso(idCurso),

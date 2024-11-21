@@ -14,7 +14,7 @@
         </header>
         <h1 id="tituloForm">Añadir Reserva</h1>
         <main>
-            <form id="formularioPrincipal" method="post" action="subirDatos.php">
+            <form id="formularioPrincipal" method="post" action="../controller/subirDatos.php">
                 <label>
                     DNI: <input type="text" name="dni" placeholder="Introduce tu dni..." required/>
                 </label>

@@ -1,8 +1,8 @@
 <?php 
 
 //Se llaman las dependecias de esta aplicación
-require '../modeloDeDatos/configdb.php';
-require 'Reservas.php';
+require '../model/configdb.php';
+require '../classes/Reservas.php';
 
 //Se realiza la reserva con metodos de un objeto de la clase Reservas
 $reserva = new Reservas($conexion);

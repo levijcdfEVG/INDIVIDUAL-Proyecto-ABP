@@ -1,4 +1,4 @@
-document.getElementById('curso').addEventListener('change',  function () {
+document.getElementById('curso').addEventListener('change', function () {
     const cursoSeleccionado = this.value;
 
     if (cursoSeleccionado) {

@@ -68,7 +68,7 @@
             </form>
         </main>
 
-        <!-- Script de verificacion de los inputs del usuario -->
+        <!-- Script de verificacion de los inputs -->
         <script type="text/javascript" src="../adm/assets/js/formHandler.js"></script>
         <!-- Se incluyen los scripts para manejar las peticiones asincronas -->
         <script type="text/javascript" src="../adm/assets/js/fetchLibros.js"></script>

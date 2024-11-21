@@ -69,8 +69,8 @@
         </main>
 
         
-        <script type="text/javascript" src="../assets/js/formHandler.js"></script>
+        <script type="text/javascript" src="../adm/assets/js/formHandler.js"></script>
         <!-- Se incluyen los scripts para manejar las peticiones asincronas -->
-        <script type="text/javascript" src="../assets/js/fetchLibros.js"></script>
+        <script type="text/javascript" src="../adm/assets/js/fetchLibros.js"></script>
     </body>
 </html>

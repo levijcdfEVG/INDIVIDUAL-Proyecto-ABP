@@ -14,7 +14,7 @@
         </header>
         <h1 id="tituloForm">Añadir Reserva</h1>
         <main>
-            <form id="formularioPrincipal" method="post" action="../controller/subirDatos.php">
+            <form id="formularioPrincipal" method="post" action="../adm/controller/subirDatos.php">
                 <label>
                     DNI: <input type="text" name="dni" placeholder="Introduce tu dni..." required/>
                 </label>
@@ -68,7 +68,7 @@
             </form>
         </main>
 
-        
+        <!-- Script de verificacion de los inputs del usuario -->
         <script type="text/javascript" src="../adm/assets/js/formHandler.js"></script>
         <!-- Se incluyen los scripts para manejar las peticiones asincronas -->
         <script type="text/javascript" src="../adm/assets/js/fetchLibros.js"></script>

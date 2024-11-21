@@ -1,6 +1,6 @@
 <?php
-require '../adm/model/configdb.php';
-require '../adm/classes/FormHandler.php';
+require '../model/configdb.php';
+require '../controller/classes/FormHandler.php';
 
 header('Content-Type: application/json');
 

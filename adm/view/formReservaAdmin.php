@@ -10,7 +10,7 @@
     <body>
         <header>
             <h1>ESCUELA VIRGEN DE GUADALUPE</h1>
-            <a id="botonRegresar" href="index.html">Regresar</a>
+            <a id="botonRegresar" href="../index.html">Regresar</a>
         </header>
         <h1 id="tituloForm">Añadir Reserva</h1>
         <main>

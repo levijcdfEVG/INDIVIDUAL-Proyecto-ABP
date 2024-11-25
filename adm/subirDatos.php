@@ -8,3 +8,4 @@ require 'Reservas.php';
 $reserva = new Reservas($conexion);
 $mensaje = $reserva->realizarReserva($_POST['dni'], $_POST['nombreAlumno'], $_POST['apellidoAlumno'], $_POST['correoAlumno'], $_POST['cursoASeleccionar'], $_POST['libroASeleccionar'], $_POST['estadoDelPago']);
 echo $mensaje;
+echo "<p><a href='formReservaAdmin.php'>Volver al menu principal</a></p>"

@@ -5,12 +5,12 @@
         <meta charset="utf-8" />
         <title>Registro de Libros</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="../assets/css/formAdm.css" rel="stylesheet" />
+        <link href="adm/assets/css/formAdm.css" rel="stylesheet" />
     </head>
     <body>
         <header>
             <h1>ESCUELA VIRGEN DE GUADALUPE</h1>
-            <a id="botonRegresar" href="../index.html">Regresar</a>
+            <a id="botonRegresar" href="adm/index.html">Regresar</a>
         </header>
         <h1 id="tituloForm">Añadir Reserva</h1>
         <main>

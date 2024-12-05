@@ -1,18 +1,3 @@
--- Crear la tabla administracion
-CREATE TABLE administracion (
-    idAdmin TINYINT AUTO_INCREMENT PRIMARY KEY,
-    nombre VARCHAR(100) NOT NULL,
-    correo VARCHAR(100) NOT NULL UNIQUE,
-    contrasenia VARCHAR(100) NOT NULL
-);
-
--- Crear la tabla usuarios
-CREATE TABLE usuarios (
-    DNI CHAR(9) PRIMARY KEY,
-    nombre VARCHAR(50) NOT NULL,
-    apellido VARCHAR(50) NOT NULL,
-    correo VARCHAR(100) NOT NULL UNIQUE
-);
 
 -- Crear la tabla reserva
 CREATE TABLE reserva (
@@ -22,7 +7,6 @@ CREATE TABLE reserva (
     fechaReserva DATE,
     detalles VARCHAR(500),
     estado_reserva VARCHAR(50),
-    FOREIGN KEY (DNI) REFERENCES usuarios(DNI),
     CONSTRAINT ch_motivo_rechazo CHECK (estado_reserva != 'rechazado' OR (estado_reserva = 'rechazado' AND detalles IS NOT NULL))
 );
 

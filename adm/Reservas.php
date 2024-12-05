@@ -16,13 +16,6 @@ class Reservas {
         $libroASeleccionar = $this->conexion->real_escape_string($libroASeleccionar);
         $estadoDelPago = $this->conexion->real_escape_string($estadoDelPago);
 
-        // Insertar el usuario en la base de datos
-        $sqlUsuarios = "INSERT INTO usuarios (DNI, nombre, apellido, correo)
-                        VALUES ('$dni', '$nombreAlumno', '$apellidoAlumno', '$correoAlumno')";
-        if (!$this->conexion->query($sqlUsuarios)) {
-            return "Error al insertar usuario: " . $this->conexion->error;
-        }
-
         // Insertar la reserva
         $sqlReserva = "INSERT INTO reserva (DNI, fechaReserva, libroReservado, estado_reserva)
                        VALUES ('$dni', CURDATE(), '$libroASeleccionar', 'pendiente')";
